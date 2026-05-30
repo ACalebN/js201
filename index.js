@@ -14,14 +14,29 @@
 
 function id() {
   // e.g. return "UP654321";
+  return 'UP2262427';
 }
 
 function fn() {
-  return 'Replace This With Your First Name';
+  return 'Adam';
 }
 
 function sn() {
-  return 'Replace This With Your Surname';
+  return 'Nettleship';
+}
+
+function add(a,b) {
+  let sum = a + b 
+  return sum
+}
+
+function subtract(a,b) {
+  let sub = a - b 
+  return sub
+}
+
+function checkObject (obj) {
+  obj.checked = true
 }
 
 function example() {
